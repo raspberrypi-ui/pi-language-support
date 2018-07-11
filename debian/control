@@ -1,0 +1,15 @@
+Source: pi-language-support
+Section: unknown
+Priority: optional
+Maintainer: Simon Long <simon@raspberrypi.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://raspberrypi.org/
+
+Package: pi-language-support
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Determines additional packages required for language support
+ Based on the check-language-support function from Ubuntu, this installs
+ a script which returns the names of all packages required to add translations
+ and fonts to support a particular locale.

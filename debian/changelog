@@ -1,0 +1,5 @@
+pi-language-support (0.1) stretch; urgency=medium
+
+  * Initial release based on Ubuntu language-selector 0.188
+
+ -- Simon Long <simon@raspberrypi.org>  Wed, 11 Jul 2018 12:58:12 +0000
